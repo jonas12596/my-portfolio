@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --black: #e8eff3;
+  /* --black: #212121; */
+  --blue: #edf5f6;
+  /* --wheat: #ebe3d5; */
+  --wheat: #2f3da5;
+}
+
+@layer utilities {
+  .text-color {
+    color: var(--wheat);
+  }
+  .bg-color {
+    background-color: var(--black);
+  }
+  .btn-bg-color {
+    background-color: var(--wheat);
+  }
+  .underline-color {
+    background-color: var(--wheat);
+  }
+  .border-color {
+    border-color: var(--wheat)
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+  font-family: "Darker Grotesque", sans-serif;
+}
+
+html,
+body,
+.container {
+  min-width: 100%;
+  min-height: 100vh;
+}
