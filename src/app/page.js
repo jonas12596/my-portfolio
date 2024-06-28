@@ -49,7 +49,7 @@ export default function Index() {
       />
       <div className="w-[200px] translate-y-[1000px] duration-[1s] ease-in-out lg:translate-y-0 fixed top-[4rem] right-8 backdrop-blur-[6px] p-4 border border-color rounded flex items-start justify-center flex-col gap-3">
         <p className="w-full text-color font-light text-lg leading-5">
-          Considering embarking on a new frontend or fullstack project? I'm here
+          Considering embarking on a new frontend or fullstack project? I&apos;m here
           to offer my expertise.
         </p>
         <Link
@@ -99,7 +99,7 @@ export default function Index() {
               Jonas Guzman, originally from the Bronx, NY, where I spent my
               early days before making a leap to Houston, TX, about six months
               ago to start a new chapter in life. As a self-taught full-stack
-              developer, I've been honing my skills independently, driven by a
+              developer, I&apos;ve been honing my skills independently, driven by a
               passion for crafting digital solutions that make an impact. Beyond
               coding, I find joy in exploring the natural beauty around me and
               soaking in the vibrant energy of city life.
