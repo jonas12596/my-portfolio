@@ -5,11 +5,11 @@
 @tailwind utilities;
 
 :root {
-  --black: #e8eff3;
-  /* --black: #212121; */
+  /* --black: #e8eff3; */
+  --black: #212121;
   --blue: #edf5f6;
-  /* --wheat: #ebe3d5; */
-  --wheat: #2f3da5;
+  --wheat: #ebe3d5;
+  /* --wheat: #2f3da5; */
 }
 
 @layer utilities {
@@ -44,4 +44,5 @@ body,
 .container {
   min-width: 100%;
   min-height: 100vh;
+  background-color: var(--black);
 }
